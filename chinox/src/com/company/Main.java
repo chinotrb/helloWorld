@@ -8,13 +8,12 @@ public class Main {
      	Scanner teclado = new Scanner(System.in);
         
         System.out.print("escriba el primer numero");        
-        int numero = teclado.nextInt();
+        int primerNumero = teclado.nextInt();
 
         System.out.print("escriba el segundo numero");        
-        int dijito = teclado.nextInt();
+        int segundoNumero = teclado.nextInt();
 
         System.out.print("la suma de los numeros es:");
-        System.out.print(numero + dijito);
-
+        System.out.print(primerNumero + segundoNumero);
     }
 }
